@@ -18,16 +18,16 @@ TODO: Add long description of the pod here.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'suancaiyucc@163.com' => 'tsia' }
-  s.source           = { :git => 'git@github.com:suancaiyu/STUtility.git', :tag => '0.1.0' }
+  s.source           = { :git => 'git@github.com:suancaiyu/STUtility.git', :tag => '0.2.0' }
 
 
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'STUtility/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'STUtility' => ['STUtility/Assets/*.png']
-  # }
+   s.resource_bundles = {
+     'STUtility' => ['STUtility/Assets/*.png']
+   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
